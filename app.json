@@ -1,6 +1,37 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/profile/profile"
+  ],
+  "sitemapLocation": "sitemap56.json",
+  "window": {
+    "navigationBarBackgroundColor": "#FF5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "雾动机龙",
+    "backgroundColor": "#FF5777",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#FF5777",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "HOME",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "PROFILE",
+        "iconPath": "assets/tabbar/profile.png",
+        "selectedIconPath": "assets/tabbar/profile_active.png"
+      }
+    ]
+  }  
 }

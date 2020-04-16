@@ -2,7 +2,6 @@
 
 <!-- 数据绑定 {{}} Mustache -->
 <view>{{name}}</view>
-<view>我的年龄{{age}}</view>
 
 <!-- 列表展示 wx:for -->
 <view wx:for="{{students}}">{{item.name}}</view>
