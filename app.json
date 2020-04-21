@@ -1,12 +1,14 @@
 {
   "pages": [
+    "pages/button/button",
+    "pages/text/text",
     "pages/home/home",
     "pages/about/about",
-    "pages/profile/profile"
+    "pages/profile/profile"    
   ],
   "sitemapLocation": "sitemap56.json",
   "window": {
-    "navigationBarBackgroundColor": "#FF5777",
+    "navigationBarBackgroundColor": "#000000",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "雾动机龙",
     "backgroundColor": "#FF5777",
@@ -33,5 +35,5 @@
         "selectedIconPath": "assets/tabbar/profile_active.png"
       }
     ]
-  }  
+  }
 }
