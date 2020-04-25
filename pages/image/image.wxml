@@ -1,0 +1,5 @@
+<!--pages/image/image.wxml-->
+
+<image src="/assets/image/cc.jpg" mode="aspectFit"></image>
+<image show-menu-by-longpress src="{{imagepath}}" mode="aspectFit"></image>
+<button bindtap="handleChooseAlnum">选择图片</button>

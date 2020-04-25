@@ -1,0 +1,10 @@
+<!--pages/input/input.wxml-->
+<input class="input" value="请输入内容..."/>
+
+<input class="input" value="" type="number"/>
+<input class="input" value="" type="idcard"/>
+<input class="input" value="" type="digit"/>
+<input class="input" value="" password/>
+<input class="input" placeholder="请输入内容..."/>
+
+<input class="input" bindinput="handleInput" bindfocus="handleFocus" bindblur="handleBlur"/>
