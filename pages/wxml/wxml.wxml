@@ -1,0 +1,9 @@
+<!--pages/wxml/wxml.wxml-->
+<view>{{mes}}</view>
+<view>{{str1}}{{str2}}</view>
+<view>{{str1 + ' && ' + str2}}</view>
+<view>{{ age > 17 ? '成年' : '未成年' }}</view>
+<view>{{nowTime}}</view>
+
+<button bindtap="handleBtn">切换颜色</button>
+<view class="{{ IsBox ? 'box1' : 'box2' }}">哈哈哈</view>

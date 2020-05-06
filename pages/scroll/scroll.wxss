@@ -1,0 +1,22 @@
+/* pages/scroll/scroll.wxss */
+.con1 {
+  background: rgb(151, 241, 151);
+  white-space: nowrap;
+}
+.item1 {
+  width: 100px;
+  height: 100px;
+  background: rgb(82, 166, 245);
+  margin: 10px;
+  display: inline-block;
+}
+.con2 {
+  background: chartreuse;
+  height: 300px;
+  margin-top: 10px;
+}
+.item2 {
+  height: 100px;
+  background: orange;
+  margin: 10px;
+}
